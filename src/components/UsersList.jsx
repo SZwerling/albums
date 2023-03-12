@@ -1,5 +1,6 @@
 
 import { useEffect } from "react";
+import { render } from "react-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUsers } from "../store";
 import Skeleton  from "./Skeleton"
@@ -21,8 +22,16 @@ function UsersList() {
         return <div>Error fetching data..</div>
     }
 
+    const renderedUsers = data.map((user) => {
+        return <div key={user.id} className="mb-2 border rounded">
+            <div className="flex p-2 justify-between items-center cursor-pointer">
+                {user.name}
+            </div>
+        </div>
+    }) 
+
     return (
-        <h1 style={{fontSize:40}}>{data.length}</h1>
+        <h1 style={{fontSize:40}}>{renderedUsers}</h1>
     )
 }
 
