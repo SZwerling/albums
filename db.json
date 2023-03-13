@@ -1,9 +1,38 @@
 {
-    "users": [
-        {"id": 1, "name":"Johnny"}
-    ],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Johnny"
+    },
+    {
+      "name": "Ms. Jan Ratke",
+      "id": 2
+    },
+    {
+      "name": "Arthur Franecki",
+      "id": 3
+    },
+    {
+      "name": "Lee Spinka",
+      "id": 4
+    },
+    {
+      "name": "Mr. Clyde Goodwin",
+      "id": 5
+    },
+    {
+      "name": "Annie Gerhold",
+      "id": 6
+    },
+    {
+      "name": "Alexis Swaniawski",
+      "id": 7
+    },
+    {
+      "name": "Barbara Simonis",
+      "id": 8
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
-
-
