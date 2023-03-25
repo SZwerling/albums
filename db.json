@@ -1,72 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Johnny"
+      "name": "Amy Cassin",
+      "id": 27
     },
     {
-      "name": "Ms. Jan Ratke",
-      "id": 2
+      "name": "Vickie McCullough",
+      "id": 29
     },
     {
-      "name": "Arthur Franecki",
-      "id": 3
-    },
-    {
-      "name": "Lee Spinka",
-      "id": 4
-    },
-    {
-      "name": "Mr. Clyde Goodwin",
-      "id": 5
-    },
-    {
-      "name": "Annie Gerhold",
-      "id": 6
-    },
-    {
-      "name": "Alexis Swaniawski",
-      "id": 7
-    },
-    {
-      "name": "Barbara Simonis",
-      "id": 8
-    },
-    {
-      "name": "Louis Roberts",
-      "id": 9
-    },
-    {
-      "name": "Sophia Harris",
-      "id": 10
-    },
-    {
-      "name": "Spencer Stokes",
-      "id": 11
-    },
-    {
-      "name": "Anita Jacobson",
-      "id": 12
-    },
-    {
-      "name": "Mr. Sophia Kreiger",
-      "id": 13
-    },
-    {
-      "name": "Antonia Kuhic",
-      "id": 14
-    },
-    {
-      "name": "Verna Cartwright IV",
-      "id": 15
-    },
-    {
-      "name": "Oscar Nikolaus",
-      "id": 16
-    },
-    {
-      "name": "Andrew Batz",
-      "id": 17
+      "name": "Mr. Garrett Smitham",
+      "id": 30
     }
   ],
   "albums": [],
