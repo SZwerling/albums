@@ -6,9 +6,11 @@ import Button from "./Button";
 function AlbumsList({ user }) {
     const {data, error, isLoading} = useFetchAlbumsQuery(user);
     const [addAlbum, results] = useAddAlbumMutation();
+
     const handleAddAlbum = () => {
         addAlbum(user)
     }
+    
     let content;
     if(isLoading){
         content = <Skeleton times={3}/>
