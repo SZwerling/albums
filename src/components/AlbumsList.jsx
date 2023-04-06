@@ -2,6 +2,7 @@ import { useFetchAlbumsQuery, useAddAlbumMutation } from "../store/apis/albumsAp
 import Skeleton from "./Skeleton";
 import ExpandablePanel from "./ExpandablePanel";
 import Button from "./Button";
+import AlbumsListItem from "./AlbumsListItem";
 
 function AlbumsList({ user }) {
     const {data, error, isLoading} = useFetchAlbumsQuery(user);
@@ -18,10 +19,7 @@ function AlbumsList({ user }) {
         content = <div>Error Loading Albums</div>
     } else {
         content = data.map((album => {
-            const header = <div>{album.title}</div>
-            return <ExpandablePanel header={header} key={album.id}>
-                List of Photos in the Album
-            </ExpandablePanel>
+           return <AlbumsListItem key={album.id} album={album}/>
         })) 
     }
 
