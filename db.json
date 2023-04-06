@@ -48,6 +48,16 @@
       "userId": 34,
       "title": "Incredible Granite Pizza",
       "id": 16
+    },
+    {
+      "userId": 33,
+      "title": "Elegant Bronze Cheese",
+      "id": 17
+    },
+    {
+      "userId": 35,
+      "title": "Sleek Bronze Pants",
+      "id": 18
     }
   ],
   "photos": []

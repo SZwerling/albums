@@ -6,14 +6,14 @@ import Button from "./Button";
 function AlbumsList({ user }) {
     const {data, error, isLoading} = useFetchAlbumsQuery(user);
     const [addAlbum, results] = useAddAlbumMutation();
-
+    
     const handleAddAlbum = () => {
         addAlbum(user)
     }
     
     let content;
     if(isLoading){
-        content = <Skeleton times={3}/>
+        content = <Skeleton size={"h-10 w-full"} times={3}/>
     } else if(error){
         content = <div>Error Loading Albums</div>
     } else {
@@ -27,9 +27,9 @@ function AlbumsList({ user }) {
 
     return (
         <div>
-            <div>
-                Albums for {user.name}
-                <Button onClick={handleAddAlbum}>
+            <div className="m-2 flex flex-row items-center justify-between">
+                <h3 className="text-lg font-bold">Albums for {user.name}</h3>
+                <Button loading={results.isLoading} onClick={handleAddAlbum}>
                     + Add Album
                 </Button>
             </div>
