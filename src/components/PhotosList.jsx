@@ -29,7 +29,7 @@ function PhotosList ({ album }) {
             <h3 className="text-lg font-bold">photos in {album.title}</h3>
             <Button loading={addPhotoResults.isLoading} onClick={handleAddPhoto}>+ add photo</Button>
         </div>
-        <div className="flex flex-row justify-evenly">{content}</div>
+        <div className="mx-8 flex flex-row flex-wrap justify-center">{content}</div>
     </div>
 }
 
