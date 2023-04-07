@@ -1,63 +1,28 @@
 {
   "users": [
     {
-      "name": "Ms. Janice Jacobson",
-      "id": 33
-    },
-    {
-      "name": "Lola Rau",
+      "name": "Cynthia Bergnaum",
       "id": 34
     },
     {
-      "name": "Tyler Ondricka",
+      "name": "Trevor Heidenreich",
       "id": 35
+    },
+    {
+      "name": "Jo Rutherford",
+      "id": 36
     }
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Over the moon",
-      "userId": 33
+      "userId": 35,
+      "title": "Incredible Frozen Salad",
+      "id": 10
     },
     {
-      "userId": 33,
-      "title": "Refined Wooden Bacon",
+      "userId": 36,
+      "title": "Handmade Fresh Keyboard",
       "id": 11
-    },
-    {
-      "userId": 33,
-      "title": "Bespoke Fresh Chair",
-      "id": 12
-    },
-    {
-      "userId": 33,
-      "title": "Small Soft Shirt",
-      "id": 13
-    },
-    {
-      "userId": 34,
-      "title": "Incredible Plastic Keyboard",
-      "id": 14
-    },
-    {
-      "userId": 35,
-      "title": "Refined Steel Tuna",
-      "id": 15
-    },
-    {
-      "userId": 34,
-      "title": "Incredible Granite Pizza",
-      "id": 16
-    },
-    {
-      "userId": 33,
-      "title": "Elegant Bronze Cheese",
-      "id": 17
-    },
-    {
-      "userId": 35,
-      "title": "Sleek Bronze Pants",
-      "id": 18
     }
   ],
   "photos": []
