@@ -22,8 +22,7 @@ const albumsApi = createApi({
         return {
             removeAlbum: builder.mutation({
                 invalidatesTags: (result, error, album) => {
-                    console.log(album)
-                    return [{ type: 'Album', id: album.userId}]
+                    return [{ type: 'Album', id: album.id}]
                 },
                query: (album) => {
                 return {
@@ -34,7 +33,7 @@ const albumsApi = createApi({
             }),
             addAlbum: builder.mutation({
                 invalidatesTags: (result, error, arg) => {
-                    return [{ type: 'Album', id: arg.id }]
+                    return [{ type: 'UsersAlbums', id: arg.id }]
                 },
                 query: (user) => {
                     return {
@@ -48,8 +47,12 @@ const albumsApi = createApi({
                 }
             }),
             fetchAlbums: builder.query({   //now we get access to a hook called albumsApi.useFetchAlbumsQuery()
-                providesTags: (result, error, arg) => {  // arg is whatever got passed to hook
-                    return [{ type: 'Album', id: arg.id }]
+                providesTags: (result, error, arg) => {  // arg is user that got passed in
+                    const tags = result.map((album) => {
+                        return { type: 'Album', id: album.id }
+                    });
+                    tags.push({ type: 'UsersAlbums', id: arg.id })
+                    return tags;
                 },
                 query: (user) => {
                     return {

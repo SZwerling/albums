@@ -5,24 +5,20 @@
       "id": 34
     },
     {
-      "name": "Trevor Heidenreich",
+      "name": "Randolph Sauer",
       "id": 35
-    },
-    {
-      "name": "Jo Rutherford",
-      "id": 36
     }
   ],
   "albums": [
     {
-      "userId": 35,
-      "title": "Incredible Frozen Salad",
-      "id": 10
+      "userId": 34,
+      "title": "Handcrafted Bronze Shirt",
+      "id": 14
     },
     {
-      "userId": 36,
-      "title": "Handmade Fresh Keyboard",
-      "id": 11
+      "userId": 35,
+      "title": "Refined Fresh Car",
+      "id": 15
     }
   ],
   "photos": []
