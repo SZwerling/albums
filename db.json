@@ -19,7 +19,48 @@
       "userId": 35,
       "title": "Refined Fresh Car",
       "id": 15
+    },
+    {
+      "userId": 34,
+      "title": "Awesome Rubber Hat",
+      "id": 16
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=10140",
+      "id": 1
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=55881",
+      "id": 2
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=80525",
+      "id": 3
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=33499",
+      "id": 4
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150/abstract?lock=94343",
+      "id": 5
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=77679",
+      "id": 6
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=15735",
+      "id": 7
+    }
+  ]
 }
